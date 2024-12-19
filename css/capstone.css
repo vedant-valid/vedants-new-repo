@@ -1,0 +1,355 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap");
+
+h2,
+h1,
+h4,
+img,
+section,
+body,
+button,
+div,
+ul,
+p {
+  margin: 0px;
+  padding: 0px;
+}
+nav {
+  margin: 0px 48px;
+  padding: 24px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+  gap: 48px;
+  list-style: none;
+}
+nav a {
+  text-decoration: none;
+  color: #1d281b;
+  font-family: "Roboto Serif";
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+nav h1 {
+  font-family: "Source Serif 4";
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 42px;
+  letter-spacing: -0.04em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+header h1 {
+  text-align: center;
+  font-family: Roboto Serif;
+  font-size: 120px;
+  font-weight: 700;
+  line-height: 120px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-bottom: 56px;
+}
+header {
+  margin-top: 144px;
+  padding: 0px 48px;
+  margin-bottom: 96px;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 56px;
+  padding: 48px;
+}
+.projects > div {
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+}
+
+.projects .item img {
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.projects {
+  font-family: "Public Sans", sans-serif;
+}
+
+.projects h4 {
+  font-size: 20px;
+  margin: 0;
+  color: #1d281b;
+  font-weight: 400;
+}
+
+.projects p {
+  font-size: 17px;
+  margin: 0;
+  color: #182e149e;
+  font-weight: 400;
+}
+
+.about {
+  padding: 200px 48px 96px 48px;
+}
+
+.about h1 {
+  font-family: "Roboto Serif";
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 68px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  margin-bottom: 96px;
+  width: 60%;
+}
+
+.about img {
+  width: 100%;
+}
+
+.featured {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  padding-right: 128px;
+}
+
+.featured h1 {
+  font-family: "Roboto Serif";
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 68px;
+  letter-spacing: -0.02em;
+  color: #1d281b;
+  margin-bottom: 24px;
+}
+
+.featured p {
+  font-family: "Public Sans";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: -0.005em;
+  color: #1d281b;
+  margin: 0;
+  margin-bottom: 56px;
+}
+
+.featured button {
+  background: #39ff14;
+  padding: 16px 40px;
+  font-family: "Public Sans";
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #1d281b;
+  border: none;
+}
+
+
+.computer-art{
+    position: relative; 
+    background: #000;
+}
+
+.computer-art img{
+    width: 100%;
+    opacity: 80%;
+    margin: 0;
+}
+
+.computer-art div{
+    position: absolute;
+    bottom: 48px;
+    left: 48px;
+    color: #fff;
+}
+
+.computer-art h1{
+    font-family: Roboto Serif;
+font-size: 34px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: -0.02em;
+}
+
+.computer-art p{
+    font-family: Public Sans;
+font-size: 24px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: -0.005em;
+margin-bottom: 56px;
+}
+
+.computer-art button{
+    border: 0;
+    padding: 16px 40px;
+    font-family: Public Sans;
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+cursor: pointer;
+}
+
+
+.extraordinary {
+  padding: 96px 48px;
+}
+.extraordinary h1 {
+  font-family: Roboto Serif;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 68px;
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+
+.welcome {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 56px 48px;
+  gap: 56px;
+}
+.welcome p {
+  font-family: Public Sans;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: -0.005em;
+}
+
+.structure {
+  padding-bottom: 48px;
+}
+.row {
+  padding: 40px 48px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 56px;
+}
+.row2 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 96px 48px 40px 48px;
+}
+footer h4 {
+  font-family: Roboto Serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #182e149e;
+}
+footer button {
+  padding: 16px 40px;
+  font-family: Public Sans;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  border: 1.5px solid #4f6e4933;
+  background-color: white;
+
+}
+
+@media screen and (max-width: 1000px) {
+    nav {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        gap: 12px;
+    }
+    nav ul li {
+        text-align: left;
+    }
+    header {
+        margin-top: 96px;
+        margin-bottom: 48px;
+    }
+    header h1 {
+        font-size: 80px;
+        line-height: 80px;
+    }
+    .projects {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 48px
+    }
+    .proejcts > div {
+        gap: 32px;
+    }
+    .about {
+        padding-top: 144px;
+    }
+    .about h1 {
+        font-size: 48px;
+        line-height: 52px;
+    }
+    .row {
+        gap: 36px;
+        padding: 32px 48px;
+    }
+    footer {
+        padding-top: 64px;
+    }
+    .featured img {
+        width: 80%;
+    }
+    .featured h1 {
+        font-size: 48px;
+        line-height: 52px;
+    }
+    .extraordinary h1 {
+        font-size: 52px;
+        line-height: 56px;
+    }
+
+    .item h4 {
+        font-size: 16px;
+    }
+
+    .item p {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 550px) {
+    .featured {
+
+    }
+    .featured img {
+        display: none;
+    }
+
+    .item h4 {
+        font-size: 14px;
+    }
+
+    .item p {
+        font-size: 10px;
+    }
+
+    body {
+        margin: auto;
+    }
+}
