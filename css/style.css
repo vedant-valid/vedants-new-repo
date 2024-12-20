@@ -74,7 +74,13 @@ header {
   flex-direction: column;
   gap: 56px;
 }
-
+.item{
+  transition: 0.4s ease;
+}
+.item:hover{
+  cursor:pointer;
+  transform: scale(1.1);
+}
 .projects .item img {
   width: 100%;
   margin-bottom: 8px;
@@ -296,7 +302,7 @@ footer button {
         grid-template-columns: repeat(2, 1fr);
         gap: 48px
     }
-    .proejcts > div {
+    .projects > div {
         gap: 32px;
     }
     .about {
